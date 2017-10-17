@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+	<title> Fruit Order Sheet </title>
+</head>
+	<h1>Order Form</h1>
+
+		<!-- Text for getting user name --> 
+	    <fieldset>
+          <legend><span class="number"></span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">              
+        </fieldset>
+
+		<!-- Order list --> 
+		<fieldset>
+			<legend><span class="number">2</span>Choosing Order</legend>
+			 <table>
+			 	<tr>
+			 		<td>
+	 		           # Of Apple (69&cent;) : &nbsp;
+ 					   <input id="appleQuantity" name="appleQuantity" style="width:75px;" onchange="validationAndCalculate(this)" >
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td>
+	 		           # Of Orange (59&cent;) : &nbsp;
+ 					   <input id="orangeQuantity" name="orangeQuantity" style="width:75px;" onchange="validationAndCalculate(this)" >
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td>
+	 		           # Of Banana (39&cent;) : &nbsp;
+ 					   <input id="bananaQuantity" name="bananaQuantity" style="width:75px;" onchange="validationAndCalculate(this)" >
+			 		</td>
+			 	</tr>
+			 		<td >
+			  		Total Cost (nearest &cent;) : &nbsp;
+			  		<input id="totalCost" name="totalCost" style="width:75px;" onfocus="disableBox()" value="" max="4">
+			 	</td>
+			 </table>
+        </fieldset>
+
+		<!-- Radio button for getting payment method -->
+		<fieldset>
+          <legend><span class="number"></span>Payment Method</legend>
+			<table>
+				<tr>
+					<td>
+						<input type = "radio" id = "Visa" name = "paymentMethod" value = "Visa">
+						<td colspan="4"><img src="resource/visa.png" title="visaImage" style="width:90px;height:50px;"/>
+					</td>
+					<td>
+						<input type = "radio" id = "MasterCard" name = "paymentMethod" value = "MasterCard">
+						<td colspan="4">	<img src="resource/mastercard.png" title="mastercardImage" style="width:90px;height:50px;"/></td>
+					</td>
+					<td>
+						<input type = "radio" id = "Discover" name = "paymentMethod" value = "Discover">
+						<td colspan="4">	<img src="resource/discover.jpg" title="discoverImage" style="width:90px;height:50px;"/></td>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+
+		<!-- Submit button -->
+        <button type="submit">Checkout Now</button>
+
+
+		  
+
+<body>
+</body>
