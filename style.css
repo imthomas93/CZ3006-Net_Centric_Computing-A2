@@ -1,0 +1,39 @@
+.container(
+
+height: 960px;
+width:  640px;
+
+)
+.jumbotron {
+    text-align: center;
+    height: 90px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.btn-row {
+    margin-top: 40px;
+}
+
+.btn {
+    width: 100%;
+}
+
+th,
+.bigger {
+    font-size: 16px;
+}
+
+.error {
+    text-align: center;
+}
+
+.error h1 {
+    font-size: 9em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.error h2 {
+    font-size: 3em;
+}
