@@ -2,14 +2,14 @@
 	<html xmlns = "http://www.w3.org/1999/xhtml">
 <head>
 	<title> Fruit Order Sheet </title>
+	<link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Thomas Lim">
-
     <!-- Input Validation JavaScript -->
-
     <script type="text/javascript" src="clientProcessing.js"></script>
 </head>
 
@@ -31,26 +31,35 @@
 			<legend><span class="number">2</span>Choosing Order</legend>
 			 <table>
 			 	<tr>
-			 		<td>
-	 		           # Of Apple (69&cent;) : &nbsp;
- 					   <input id="appleQuantity" name="appleQuantity" style="width:75px;" onchange="validationAndCalculate(this)" >
-			 		</td>
+			 		<td><img src="resource/Apple.jpg" title="appleImage" style="width:70px;height:80px;"></td>
+			 		<td><img src="resource/Orange.jpg" title="orangeImage" style="width:70px;height:80px;"></td>
+			 		<td><img src="resource/Banana.jpg" title="bananaImage" style="width:70px;height:80px;"></td>
 			 	</tr>
 			 	<tr>
 			 		<td>
-	 		           # Of Orange (59&cent;) : &nbsp;
- 					   <input id="orangeQuantity" name="orangeQuantity" style="width:75px;" onchange="validationAndCalculate(this)" >
+	 		           Apple (69&cent;) : &nbsp;
+			 		</td>
+			 		<td>
+	 		           Orange (59&cent;) : &nbsp;
+			 		</td>
+			 		<td>
+	 		           Banana (39&cent;) : &nbsp;
 			 		</td>
 			 	</tr>
 			 	<tr>
-			 		<td>
-	 		           # Of Banana (39&cent;) : &nbsp;
- 					   <input id="bananaQuantity" name="bananaQuantity" style="width:75px;" onchange="validationAndCalculate(this)" >
+					<td>
+ 					   <input  type="number" id="appleQuantity" name="appleQuantity" style="width:75px;" onchange="validationAndCalculate(this)" value = "0">
 			 		</td>
+			 		<td>
+ 					   <input  type="number" id="orangeQuantity" name="orangeQuantity" style="width:75px;" onchange="validationAndCalculate(this)" value = "0">
+			 		</td>
+			 		<td>
+ 					   <input  type="number" id="bananaQuantity" name="bananaQuantity" style="width:75px;" onchange="validationAndCalculate(this)" value = "0">
+				  	</td>
 			 	</tr>
-			 		<td >
-				  		Total Cost (nearest &cent;) : &nbsp;
-				  		<input id="totalCost" name="totalCost" style="width:75px;" onfocus="disableBox()">
+			 		<td colspan="3">
+				  		Total(nearest &cent;): &nbsp;
+				  		<input id="totalCost" name="totalCost" style="width:75px;" onfocus="disableBox()" value = "0">
 			 		</td>
 			 </table>
         </fieldset>

@@ -17,6 +17,7 @@ function validateNaN(){
 
 	if ((userName == null) || userName == ""){
 		errorMsg += "User Name\n";
+		document.getElementById("userName").style.backgroundColor="red";
 		result = false;
 	}	
 

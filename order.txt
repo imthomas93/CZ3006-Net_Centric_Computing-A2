@@ -1,0 +1,32 @@
+Customer Count: 3
+Total number of Apples: 29
+Total number of Oranges: 51
+Total number of Bananas: 12
+
+==========================================================
+Date of Order: Thursday 9th of November 2017 01:26:31 PM
+Purchased By: Jane
+Payment Method: Visa
+
+Quantity of Apples: 10
+Quantity of Oranges: 31
+Quantity of Bananas: 1
+==========================================================
+==========================================================
+Date of Order: Thursday 9th of November 2017 01:26:43 PM
+Purchased By: Thomas
+Payment Method: MasterCard
+
+Quantity of Apples: 15
+Quantity of Oranges: 20
+Quantity of Bananas: 11
+==========================================================
+==========================================================
+Date of Order: Thursday 9th of November 2017 01:26:55 PM
+Purchased By: Kenneth
+Payment Method: Discover
+
+Quantity of Apples: 4
+Quantity of Oranges: 0
+Quantity of Bananas: 0
+==========================================================
