@@ -1,32 +1,55 @@
-Customer Count: 3
-Total number of Apples: 29
-Total number of Oranges: 51
-Total number of Bananas: 12
+Customer Count: 5
+Total number of Apples: 6
+Total number of Oranges: 5
+Total number of Bananas: 10
+
 
 ==========================================================
-Date of Order: Thursday 9th of November 2017 01:26:31 PM
-Purchased By: Jane
+Date of Order: Tuesday 14th of November 2017 12:59:14 PM
+Purchased By: Huang Jian Wei
 Payment Method: Visa
 
-Quantity of Apples: 10
-Quantity of Oranges: 31
-Quantity of Bananas: 1
+Quantity of Apples: 1
+Quantity of Oranges: 1
+Quantity of Bananas: 3
 ==========================================================
+
 ==========================================================
-Date of Order: Thursday 9th of November 2017 01:26:43 PM
+Date of Order: Tuesday 14th of November 2017 12:59:43 PM
 Purchased By: Thomas
+Payment Method: Visa
+
+Quantity of Apples: 2
+Quantity of Oranges: 
+Quantity of Bananas: 2
+==========================================================
+
+==========================================================
+Date of Order: Tuesday 14th of November 2017 01:00:09 PM
+Purchased By: Kenneth
 Payment Method: MasterCard
 
-Quantity of Apples: 15
-Quantity of Oranges: 20
-Quantity of Bananas: 11
+Quantity of Apples: 2
+Quantity of Oranges: 2
+Quantity of Bananas: 4
 ==========================================================
+
 ==========================================================
-Date of Order: Thursday 9th of November 2017 01:26:55 PM
-Purchased By: Kenneth
+Date of Order: Tuesday 14th of November 2017 01:00:21 PM
+Purchased By: Joel
 Payment Method: Discover
 
-Quantity of Apples: 4
-Quantity of Oranges: 0
+Quantity of Apples: 1
+Quantity of Oranges: 2
 Quantity of Bananas: 0
+==========================================================
+
+==========================================================
+Date of Order: Thursday 16th of November 2017 11:07:57 AM
+Purchased By: Jake
+Payment Method: Discover
+
+Quantity of Apples: 0
+Quantity of Oranges: 0
+Quantity of Bananas: 1
 ==========================================================

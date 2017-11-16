@@ -55,7 +55,7 @@ if(file_exists("order.txt")){
 	fclose($file);
 
 	// Append new order
-	$orderDetail = "==========================================================\n";
+	$orderDetail = "\r\n==========================================================\r\n";
 	$orderDetail .= "Date of Order: ".$currTime."\r\n";
 	$orderDetail .= "Purchased By: ".$name."\r\n";
 	$orderDetail .= "Payment Method: ".$paymentMode."\r\n\n";
@@ -79,7 +79,7 @@ else{
 	fclose($file);
 
 	// Append new order
-	$orderDetail = "==========================================================\n";
+	$orderDetail = "\r\n==========================================================\r\n";
 	$orderDetail .= "Date of Order: ".$currTime."\r\n";
 	$orderDetail .= "Purchased By: ".$name."\r\n";
 	$orderDetail .= "Payment Method: ".$paymentMode."\r\n\n";
@@ -119,8 +119,8 @@ else{
 			</tr>
 			<tr class="tableHeader">
 				<td colspan="2">Item</td>
-				<td>Cost</td>
 				<td>Quantity</td>
+				<td>Cost</td>
 				<td>Total</td>
 			</tr>
 			<tr class="apple">

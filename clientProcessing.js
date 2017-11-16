@@ -17,11 +17,11 @@ function validateNaN(){
 
 	if ((userName == null) || userName == ""){
 		errorMsg += "User Name\n";
-		document.getElementById("userName").style.backgroundColor="red";
+		document.getElementById("userName");
 		result = false;
 	}	
 
-	if(totalCost == null || totalCost == "" || totalCost == "NaN"){
+	if(totalCost == null || totalCost == "" || totalCost == "NaN" || totalCost == 0){
 		errorMsg += "Total Cost\n";
 		result = false;
 	}
